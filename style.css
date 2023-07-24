@@ -36,3 +36,35 @@ header nav a {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+.hero {
+    background-image: url(assets/hero.jpg);
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 200px;
+    /* here we position our backgroud image on the x and y axis right hand edge on the right hand edge of our box centered vertically */
+    background-position: right center;
+}
+
+.hero div {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 13px;
+}
+
+.hero p {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
