@@ -68,3 +68,33 @@ header nav a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.flowers {
+    overflow: hidden;
+}
+
+.flowers img {
+    float: left;
+    /* by using a pourcentage width, our images will now be fluid in relation to the size of their container */
+    width: 33.333%;
+}
+
+.quotes {
+    overflow: hidden;
+}
+
+.quotes div {
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding: 50px 20px 40px 20px;
+}
+
+.cream-background {
+    background-color: #F7F1EE;
+}
+
+.quotes img {
+    width: 75px;
+    margin-bottom: 10px;
+}
