@@ -172,5 +172,19 @@ footer p {
     .quotes div {
         float: none;
         width: auto;
+        padding: 30px 30px 40px 30px;
+    }
+
+    .quotes blockquote {
+        font-size: 20px;
+    }
+
+    .quotes p {
+        /* this will hide our elements from the page visually but they will remain in the html */
+        display: none;
+    }
+
+    body {
+        font-size: 14px;
     }
 }
