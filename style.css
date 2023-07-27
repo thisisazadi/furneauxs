@@ -151,3 +151,26 @@ footer p {
     color: #CCC9CA;
     font-weight: 700;
 }
+
+/* our first breakpoint for responsive styles will be at 600px */
+@media (max-width: 600px) {
+    
+    .hero h2 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .chair {
+        height: 320px;
+    }
+
+    .quotes div {
+        float: none;
+        width: auto;
+    }
+}
