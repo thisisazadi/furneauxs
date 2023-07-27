@@ -108,3 +108,46 @@ header nav a {
     max-width: 400px;
     margin: 15px auto 5px auto;
 }
+
+.chair {
+    /* here we override the background image, position and padding from our .hero class above (which is also on the element) */
+    background-image: url(assets/full-bleed.jpg);
+    background-position: center bottom;
+    padding: 0;
+    height: 500px;
+}
+
+.logos {
+    background-color: #EEAE9F;
+    padding: 20px 20px 35px 20px;
+    text-align: center;
+}
+
+.logos p {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.logos img {
+    /* we apply our margins aqually on both the left and the right */
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+footer {
+    background-color: #47353A;
+    padding: 25px 30px;
+    overflow: hidden;
+}
+
+footer img {
+    float: left;
+}
+
+footer p {
+    float: right;
+    font-size: 14px;
+    color: #CCC9CA;
+    font-weight: 700;
+}
