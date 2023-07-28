@@ -228,4 +228,28 @@ footer p {
         margin: 0 auto 35px 0;
         display: block;
     }
+
+    .logos img:last-child {
+        /* here we remove the margin bottom from the img only */
+        margin-bottom: 0;
+    }
+}
+
+/* these styles will only get applied *above* 820px screen width */
+@media (min-width: 820px) {
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        /* the box shadow is very similar to a photoshop dro shadow, it allows us to specify x/y axis, blur radius, spread and shadow color */
+        box-shadow: 0 1px 5px 0px rgba(51, 51, 51, 0.3);
+    }
+
+    .hero {
+        /* this creates the empty space above our hero for the header to sit in */
+        margin-top: 50px;
+    }
 }
